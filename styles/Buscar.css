@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+    background-color: rgb(85, 87, 88);
+}
+
+#seta{
+    max-height: 40px;
+    margin :20px 0px 0px 20px;
+    cursor: pointer; 
+}
+
+.mainPage{
+    background-color: rgb(85, 87, 88);
+}
+
+.head{
+    width: 100%;
+    display: inline-flex;
+    background-color: rgb(85, 87, 88);
+}
+
+.head h1{
+    width: 100%;
+    text-align: right;
+    margin :20px 20px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+
+.busca-section{
+    margin: 50px 50px 50px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px 8px 8px 8px;
+    height: 100vh;
+
+}
+
+.searchbar{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+
+.searchbar input{
+    width: 30%;
+    height: 40px;
+    border-radius: 15px;
+    border-width: 0px;
+    background-color: rgb(85, 87, 88);
+    color: white;
+}
+
+.searchbar img{
+    max-width: 3%;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.resultados{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 5px;
+    width: 100%;;
+}
+
+.result{
+    width:90%;
+    max-height: 20%;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background-color: rgb(85, 87, 88);
+    padding-left: 20px;
+    border-radius: 20px;
+
+}
+
+.result p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.result img{
+    width: 3%;
+    cursor: pointer;
+}
+
+#nomeAluno{
+    width: 50%;
+}
+
+#matricula{
+    width: 45%;
+}
+
+#nomeDisciplina{
+    width: 50%;
+}
+
+#horario{
+    width:40%;
+}
+
+#lapis{
+    margin-right: 25px;
+}
