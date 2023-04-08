@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: rgb(85, 87, 88);
+}
+
+#seta{
+    max-height: 40px;
+    margin :20px 0px 0px 20px;
+    cursor: pointer; 
+}
+
+.mainPage{
+    background-color: rgb(85, 87, 88);
+}
+
+.head{
+    width: 100%;
+    display: inline-flex;
+    background-color: rgb(85, 87, 88);
+}
+
+.buts{
+    background-color: transparent;
+    margin :20px 20px 0px 0px;
+    width: 100%;
+    justify-content: right;
+    display: inline-flex;
+}
+
+.head button{
+    border-radius: 7px;
+    color:black;
+    width: 10%;
+    border-width: 0px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.tabela{
+    margin: 20px 20px 0px 20px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px 8px 0px 0px;
+    height: 100vh;
+}
+
+.tabela input{
+    max-width: 100%;
+}

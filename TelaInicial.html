@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/TelaInicial.css">
+    <script src="script/TelaInicial.js"></script>
     <title>Tela Inicial</title>
 </head>
 <body>
@@ -21,8 +22,16 @@
             <button type="buttom" id="cadDisciplinas">Cadastrar Disciplinas</button>
         </div>
         <div class="user-section">
+            <div class="dropdown">
+                <img onclick="toggleDp()" src="resources/profile_picture.jpg" alt="profile-picture">
+                <div id="dp-items" class="dropdown-items">
+                    <a href="#">Ver Dados</a>
+                    <a href="#">Editar Dados</a>
+                    <a href="#">Excluir Conta</a>
+                    <a href="#">Sair</a>
+                </div>
+            </div>
             <h3>Nome do usuário</h3>
-            <img alt="profile-picture">
         </div>
     </div>
 </body>
