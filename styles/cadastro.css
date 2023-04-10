@@ -59,3 +59,21 @@ h2{
 .dropdown{
     width: 55.5em;
 }
+.container{
+    background-color: #D9D9D9;
+    max-width: 400em;
+    min-width: 20em;     
+    max-height: 40em;
+    min-height: 20em; 
+    height: 25em;
+    padding: 0.5em 2em;
+    border-radius: 15px;
+}
+.elemento{
+    background-color: #615959;
+    color: white;
+    padding: 0.5em;
+    margin: 0.4em;
+    border-radius: 15px;
+    display: flex;
+}
