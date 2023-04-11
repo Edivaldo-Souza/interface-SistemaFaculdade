@@ -11,6 +11,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/cadastro.css"> 
+        <script type="text/javascript" src="script/cadastro.js"></script>
     </head>
     <body>
         <section class="main">
@@ -21,7 +22,7 @@
                 <form action="">
                     <div class="alinha distancia">
                         <label for="cpf">CPF:</label>
-                        <input type="text" name="" id="cpf" class="campotexto" placeholder="Ex.: 123.456.789-10">
+                        <input type="text" name="" id="cpf" class="campotexto" placeholder="Ex.: 123.456.789-10 (sem pontos e hífen)" >
                         <label for="nome">Nome:</label>
                         <input type="text" name="" id="nome" class="campotexto" placeholder="Ex.: Fulano de Cicrano Beltrano">
                         <label for="endereco">Endereço:</label>
@@ -34,7 +35,7 @@
                         <input type="password" name="senhausuario" id="confirmasenhausuario" class="campotexto" placeholder="Confirme sua senha">
                     </div>
                     <div class="alinha botoes">
-                        <input type="button" value="Confirmar" id="confirmabtn" class="botao">
+                        <input type="button" value="Confirmar" id="confirmabtn" class="botao" onclick="validaFormProfessor()">
                         <input type="button" value="Cancelar" id="cancelabtn" class="botao">
                     </div>   
                 </form>

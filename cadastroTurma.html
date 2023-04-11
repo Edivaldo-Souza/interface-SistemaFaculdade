@@ -7,15 +7,16 @@
 
 <html>
     <head>
-        <title>Cadastro: Disciplina</title>
+        <title>Cadastro: Turma</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/cadastro.css">
+        <script type="text/javascript" src="script/cadastro.js"></script>
     </head>
     <body>
         <section class="main">
             <h2>
-                Cadastrando Disciplina
+                Cadastrando Turma
             </h2>    
             <div class="alinha">
                 <form action="">
@@ -27,8 +28,11 @@
                             <option value="Opção 3"> Opção 3</option>
                             <option value="Opção 4"> Opção 4</option>
                         </select>
+
+                        <!- Dá pra usar outro tipo de input pra esse campo e isso pode ser mudado ->
                         <label for="horario">Horario:</label>
                         <input type="text" name="horario" id="horario" class="campotexto" placeholder="Ex.: 35M45">
+
                         <label for="professores">Professores:</label>
                         <select name="professores" id="professores" class="dropdown">
                             <option value="Opção 1"> Opção 1</option>
@@ -36,6 +40,7 @@
                             <option value="Opção 3"> Opção 3</option>
                             <option value="Opção 4"> Opção 4</option>
                         </select>
+
                         <label for="local">Local:</label>
                         <input type="text" name="local" id="local" class="campotexto" placeholder="Ex.: LCC">
                     </div>
@@ -46,7 +51,7 @@
                         <input type="password" name="senhausuario" id="confirmasenhausuario" class="campotexto" placeholder="Confirme sua senha">
                     </div>
                     <div class="alinha botoes">
-                        <input type="button" value="Confirmar" id="confirmabtn" class="botao">
+                        <input type="button" value="Confirmar" id="confirmabtn" class="botao" onclick="validaFormTurma()">
                         <input type="button" value="Cancelar" id="cancelabtn" class="botao">
                     </div>
                 </form>

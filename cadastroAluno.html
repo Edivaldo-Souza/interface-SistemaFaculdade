@@ -11,6 +11,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/cadastro.css">
+        <script type="text/javascript" src="script/cadastro.js"></script>
     </head>
     <body>
         <section class="main">
@@ -23,9 +24,9 @@
                         <label for="matricula">Matricula:</label>
                         <input type="text" name="campotexto" id="matricula" class="campotexto" placeholder="Ex.: 20220216052">
                         <label for="nome">Nome:</label>
-                        <input type="text" name="" id="nome" class="campotexto" placeholder="Ex.: Fulano de Cicrano Beltrano">
+                        <input type="text" name="campotexto" id="nome" class="campotexto" placeholder="Ex.: Fulano de Cicrano Beltrano">
                         <label for="endereco">Endereço:</label>
-                        <input type="text" name="" id="endereco" class="campotexto" placeholder="Ex.: Alameda dos Sonhos Despedaçados, 54">
+                        <input type="text" name="campotexto" id="endereco" class="campotexto" placeholder="Ex.: Alameda dos Sonhos Despedaçados, 54">
                     </div>
                     <div class="alinha">
                         <label for="senhausuario">Senha:</label>
@@ -34,7 +35,7 @@
                         <input type="password" name="senhausuario" id="confirmasenhausuario" class="campotexto" placeholder="Confirme sua senha">
                     </div>
                     <div class="alinha botoes">
-                        <input type="button" value="Confirmar" id="confirmabtn" class="botao">
+                        <input type="button" value="Confirmar" id="confirmabtn" class="botao" onclick="validaFormAluno()">
                         <input type="button" value="Cancelar" id="cancelabtn" class="botao">
                     </div>
                 </form>

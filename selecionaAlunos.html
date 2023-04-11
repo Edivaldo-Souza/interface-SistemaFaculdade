@@ -11,6 +11,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/cadastro.css">
+        <script type="text/javascript" src="script/cadastro.js"></script>
     </head>
     <body>
         <section class="main">
@@ -22,20 +23,21 @@
             </h2>
             <div>
             <form action="">
+                <!- fiquei perdido aqui, essa solução é temporária ->
                 <section class="container">
                     <div class="elemento">
-                        <label for="nome">Nome:</label>
-                        <label for="matricula">Matricula:</label>
-                        <input type="checkbox" name="aluno" id="aluno1">
+                        <section class="espaco">Nome</section>
+                        <section class="espaco">Matricula</section>
+                        <input type="checkbox" name="aluno" id="aluno1" class="espaco">
                     </div>
                     <div class="elemento">
-                        <label for="nome">Nome:</label>
-                        <label for="matricula">Matricula:</label>
-                        <input type="checkbox" name="aluno" id="aluno2">
+                        <section class="espaco">Nome</section>
+                        <section class="espaco">Matricula</section>
+                        <input type="checkbox" name="aluno" id="aluno2" class="espaco">
                     </div>
                 </section>
                 <div class="alinha botoes">
-                    <input type="button" value="Confirmar" id="confirmabtn" class="botao">
+                    <input type="button" value="Confirmar" id="confirmabtn" class="botao" onclick="validaSelecaoAlunos()">
                     <input type="button" value="Voltar" id="voltabtn" class="botao">
                 </div>
             </form>
