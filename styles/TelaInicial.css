@@ -26,6 +26,10 @@ body{
     cursor: pointer;
 }
 
+.options-container a{
+    min-width: 100%;
+}
+
 .user-section{
     position: absolute;
     margin-left: 80%;
