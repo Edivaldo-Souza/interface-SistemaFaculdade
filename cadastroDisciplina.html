@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<!-
+    Planejando usar um html só pra cadastro montando a página com JS de acordo com a opção selecionada,
+    mas por enquanto, deixo um monte de html.
+->
+
+<html>
+    <head>
+        <title>Cadastro: Disciplina</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/cadastro.css"> 
+        <script type="text/javascript" src="script/cadastro.js"></script>
+    </head>
+    <body>
+        <section class="main">
+            <h2>
+                Cadastrando Disciplina
+            </h2>
+            <div class="alinha">
+            <form action="">
+                <div class="alinha distancia">
+                    <label for="disciplina">Nome:</label>
+                    <input type="text" name="disciplina" id="disciplina" class="campotexto" placeholder="Ex. Programação WEB">
+                    <label for="codigo">Código:</label>
+                    <input type="text" name="disciplina" id="codigo" class="campotexto" placeholder="Ex. EXS0241">
+                </div>
+                <div class="alinha botoes">
+                    <input type="button" value="Confirmar" id="confirmabtn" class="botao" onclick="validaFormDisciplina()">
+                    <input type="button" value="Cancela" id="cancelabtn" title="Cancelar" class="botao">
+                </div>
+            </form>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<!-
+    Planejando usar um html só pra cadastro montando a página com JS de acordo com a opção selecionada,
+    mas por enquanto, deixo um monte de html.
+->
+
+<html>
+    <head>
+        <title>Cadastro: Turma</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/cadastro.css">
+        <script type="text/javascript" src="script/cadastro.js"></script>
+    </head>
+    <body>
+        <section class="main">
+            <h2>
+                Cadastrando Turma
+            </h2>    
+            <div class="alinha">
+                <form action="">
+                    <div class="alinha distancia">
+                        <label for="disciplinas">Disciplina:</label>
+                        <select name="disciplinas" id="disciplinas" class="dropdown">
+                            <option value="Opção 1"> Opção 1</option>
+                            <option value="Opção 2"> Opção 2</option>
+                            <option value="Opção 3"> Opção 3</option>
+                            <option value="Opção 4"> Opção 4</option>
+                        </select>
+
+                        <!- Dá pra usar outro tipo de input pra esse campo e isso pode ser mudado ->
+                        <label for="horario">Horario:</label>
+                        <input type="text" name="horario" id="horario" class="campotexto" placeholder="Ex.: 35M45">
+
+                        <label for="professores">Professores:</label>
+                        <select name="professores" id="professores" class="dropdown">
+                            <option value="Opção 1"> Opção 1</option>
+                            <option value="Opção 2"> Opção 2</option>
+                            <option value="Opção 3"> Opção 3</option>
+                            <option value="Opção 4"> Opção 4</option>
+                        </select>
+
+                        <label for="local">Local:</label>
+                        <input type="text" name="local" id="local" class="campotexto" placeholder="Ex.: LCC">
+                    </div>
+                    <div class="alinha">
+                        <label for="senhausuario">Senha:</label>
+                        <input type="password" name="senhausuario" id="senhausuario" class="campotexto" placeholder="Insira sua senha">
+                        <label for="confirmasenhausuario">Confirmar senha:</label>
+                        <input type="password" name="senhausuario" id="confirmasenhausuario" class="campotexto" placeholder="Confirme sua senha">
+                    </div>
+                    <div class="alinha botoes">
+                        <input type="button" value="Confirmar" id="confirmabtn" class="botao" onclick="validaFormTurma()">
+                        <input type="button" value="Cancelar" id="cancelabtn" class="botao">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

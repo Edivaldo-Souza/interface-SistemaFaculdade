@@ -1,0 +1,79 @@
+body{
+    font-size: large;
+    margin: 0;
+}
+h2, #erro{
+    padding: 0;
+    font-weight: normal;
+    margin: 0.5em 1.3em;
+    text-align: justify;
+}
+.main{
+    width: 75%;
+    height: 75%;
+    margin: 0 10%;
+
+}
+.botao{
+    background-color: #D9D9D9;
+    border: 0em;
+    margin: 0.3em 0;
+    max-width: 20em;
+    min-width: 10em;  
+    width: 20em;
+    height: 2.5em;
+}
+.botao:hover{
+    background-color: black;
+    color: #D9D9D9;
+}
+.botao:active{
+    background-color: #D9D9D9;
+    color: black;
+    border: 1px;
+    border-style:double;
+    border-color: black;
+}
+.campotexto, .dropdown{
+    background-color: #f2f2f2;
+    max-width: 400em;
+    min-width: 20em;  
+    width: 55em;
+    height: 2em;
+    font-size: 16px;
+    padding: 0em 0.2em;
+    border: 1px groove black;   
+}
+.alinha{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em 1em;
+    align-items: justify;
+}
+.botoes{
+    align-items: end;
+}
+.distancia{
+    margin-bottom: 5em;
+}
+.dropdown{
+    width: 55.5em;
+}
+.container{
+    background-color: #D9D9D9;
+    max-width: 400em;
+    min-width: 20em;     
+    max-height: 40em;
+    min-height: 20em; 
+    height: 25em;
+    padding: 0.5em 2em;
+    border-radius: 15px;
+}
+.elemento{
+    background-color: #615959;
+    color: white;
+    padding: 0.5em;
+    margin: 0.4em;
+    border-radius: 15px;
+    display: flex;
+}
