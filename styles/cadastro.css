@@ -17,6 +17,7 @@ h2, #erro{
 .botao{
     background-color: #D9D9D9;
     border: 0em;
+    border-radius: 10px;
     margin: 0.3em 0;
     max-width: 20em;
     min-width: 10em;  
