@@ -128,8 +128,7 @@ function validaFormTurma(){
 
     if(valido){
         console.log("Tudo OK!")
-        alert("Turma cadastrada com sucesso!\nClique em \"Mostrar turmas\" pra ver as turmas adicionadas.")
-        habilitaVisualizacao();
+        alert("Turma cadastrada com sucesso!\nRedirecionando pra o cadastro de alunos na turma.")
     } else {
         console.log("Deu ruim!")
     }
