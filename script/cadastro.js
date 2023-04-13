@@ -30,7 +30,8 @@ function validaFormAluno(){
 
     if(valido){
         console.log("Tudo OK!")
-        alert("OK!")
+        alert("Aluno cadastrado com sucesso!\nClique em \"Mostrar alunos\" pra ver os alunos cadastrados ou siga adicionando.")
+        habilitaVisualizacao();
     } else {
         console.log("Deu ruim!")
     }
@@ -62,10 +63,12 @@ function validaFormProfessor(){
 
     if(valido){
         console.log("Tudo OK!")
-        alert("OK!")
+        alert("Professor cadastrado com sucesso!\nClique em \"Mostrar professores\" pra ver os professores cadastrados ou siga adicionando.")
+        habilitaVisualizacao();
     } else {
         console.log("Deu ruim!")
     }
+
 }
 
 function validaFormDisciplina(){
@@ -86,7 +89,8 @@ function validaFormDisciplina(){
 
     if(valido){
         console.log("Tudo OK!")
-        alert("OK!")
+        alert("Disciplina cadastrada com sucesso!\nClique em \"Mostrar disciplinas\" pra ver as disciplinas cadastradas ou siga adicionando.")
+        habilitaVisualizacao();
     } else {
         console.log("Deu ruim!")
     }
@@ -124,7 +128,8 @@ function validaFormTurma(){
 
     if(valido){
         console.log("Tudo OK!")
-        alert("OK!")
+        alert("Turma cadastrada com sucesso!\nClique em \"Mostrar turmas\" pra ver as turmas adicionadas.")
+        habilitaVisualizacao();
     } else {
         console.log("Deu ruim!")
     }
@@ -144,7 +149,8 @@ function validaSelecaoAlunos(){
 
     if(valido){
         console.log("Tudo OK!")
-        alert("OK!")
+        alert("Alunos cadastrados com sucesso!\nClique em \"Mostrar turmas\" pra ver alunos adicionados.")
+        habilitaVisualizacao();
     } else {
         console.log("Deu ruim!")
     }
@@ -165,6 +171,10 @@ function validaSenha(){
     }
 
     return true;
+}
+
+function habilitaVisualizacao(){
+    document.getElementById("visualizacaobtn").disabled = false;
 }
 
 /*  A ideia é que haja uma função deixando o botão de envio desativado até que todos os dados estejam
