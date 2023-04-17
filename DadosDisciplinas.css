@@ -1,0 +1,65 @@
+.dados{
+    display:flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 2%;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+
+.informações{
+    flex-direction: column;   
+}
+
+.informação{
+    display: flex; 
+    gap: 20px;
+}
+
+.ind{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10%;
+    justify-content: space-between;
+    margin-right: 37%;
+}
+.alunos{
+    background-color:  rgb(85, 87, 88);
+    padding: 20px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 2%;
+    justify-content: space-between;
+    margin-right: 3%;
+
+}
+
+.botão{
+    font-size: 30px;
+    background-color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 130px;
+    height: 50px;
+}
+
+.botão2{
+    font-size: 30px;
+    background-color: #D9D9D9;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 190px;
+    height: 80px;
+
+}
+
+.botões{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1%;
+    gap:60%;
+}

@@ -1,0 +1,60 @@
+
+
+.centro{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 38%;
+    padding-left: 30%;
+    transition: all 0.6s;
+}
+
+.imput{
+    justify-content: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+.h2class{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.sistema{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    display:flex;
+    justify-content: center;    
+    transition: all 0.4s;
+}
+
+.botões{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    gap: 100px;
+}
+
+.botãoentrar{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    min-width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: flex-start;   
+}
+.botãocadastrar{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    min-width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: flex-end;   
+}
