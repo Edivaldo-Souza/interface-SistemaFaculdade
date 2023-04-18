@@ -1,10 +1,8 @@
-.disciplina_campo{
-flex-direction: row;
-    margin: 0.8rem 0;
-    height: 1.3rem;
-    width: 30rem;
-    border: 1px #3C3200 solid;
-    border-radius: 10px;
+#label_tela{
+    margin: 2rem 1.5rem;
+}
+#info_area{
+    margin: 3rem 1.5rem;
 }
 #codigo_campo{
     margin-left: 4rem;
