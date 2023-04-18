@@ -1,0 +1,17 @@
+.disciplina_campo{
+flex-direction: row;
+    margin: 0.8rem 0;
+    height: 1.3rem;
+    width: 30rem;
+    border: 1px #3C3200 solid;
+    border-radius: 10px;
+}
+#codigo_campo{
+    margin-left: 4rem;
+}
+#nome_campo{
+    margin-left: 4.5rem;
+}
+#senha_area{
+    margin-top: 6.15rem;
+}
