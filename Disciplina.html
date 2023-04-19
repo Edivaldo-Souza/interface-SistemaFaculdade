@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/ProfessorTela.css">
+    <script src="script/professor.js"></script>
+    <title>Disciplina</title>
+</head>
+<body>
+    <div class="mainPage">
+        <div id="seta">
+            <a href="TelaInicial.html"><img src="resources/seta-esquerda_2.png"></a>
+        </div>
+        
+        <div class="busca-section">
+            <div class="searchbar">
+                <input type="text" placeholder="Pesquisar...">
+                <img class="lupa" src="resources/lupa.png" alt="lupa">
+                <button type="button" id="plus" onclick="novo()">Nova Disciplina+</button>
+            </div>
+            <div class="resultados">
+                <div class="result">
+                    <p class="nomeAluno">Nome da Disciplina</p>
+                    <p class="matricula">Codigo</p>
+                    <img class ="lupa" src="resources/lixeira_2.png">
+                    <img class="lupa" src="resources/ferramenta-lapis_2.png">
+                    <img class="lupa" onclick="consultar()" src="resources/lupa_2.png">
+                </div>
+                <div class="result">
+                    <p class="nomeAluno">Nome da Disciplina</p>
+                    <p class="matricula">Codigo</p>
+                    <img class ="lupa" src="resources/lixeira_2.png">
+                    <img class="lupa" src="resources/ferramenta-lapis_2.png">
+                    <img class="lupa" src="resources/lupa_2.png">
+                </div>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info" style="margin-top: 30px;">
+                <h2>Dados da Disciplina</h2>
+                <input type="text" class="dados" placeholder="Nome">
+                <input type="text" class="dados" placeholder="Código">
+               
+                <button type="button" class="botaoInfo" onclick="salvar()">Salvar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

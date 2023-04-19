@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/ProfessorTela.css">
+    <script src="script/professor.js"></script>
+    <title>Turma</title>
+</head>
+<body>
+    <div class="mainPage">
+        <div id="seta">
+            <a href="TelaInicial.html"><img src="resources/seta-esquerda_2.png"></a>
+        </div>
+        
+        <div class="busca-section">
+            <div class="searchbar">
+                <input type="text" placeholder="Pesquisar...">
+                <img class="lupa" src="resources/lupa.png" alt="lupa">
+                <button type="button" id="plus" onclick="novo()">Nova Turma+</button>
+            </div>
+            <div class="resultados">
+                <div class="result">
+                    <p class="nomeAluno">Nome da Disciplina</p>
+                    <p class="matricula">Horario</p>
+                    <img class ="lupa" src="resources/lixeira_2.png">
+                    <img class="lupa" onclick="editar()" src="resources/ferramenta-lapis_2.png">
+                    <img class="lupa" onclick="consultar()" src="resources/lupa_2.png">
+                </div>
+                <div class="result">
+                    <p class="nomeAluno">Nome da Disciplina</p>
+                    <p class="matricula">Horario</p>
+                    <img class ="lupa" src="resources/lixeira_2.png">
+                    <img class="lupa" src="resources/ferramenta-lapis_2.png">
+                    <img class="lupa" src="resources/lupa_2.png">
+                </div>
+            </div>
+        </div>
+        <div class="info-section">
+            <div class="info" style="margin-top: 30px;">
+                <h2>Dados da Turma</h2>
+                <select name="disciplinas" id="disciplinas" class="dropdown">
+                    <option value="Opção 1"> Disciplina..</option>
+                    <option value="Opção 2"> Opção 2</option>
+                    <option value="Opção 3"> Opção 3</option>
+                    <option value="Opção 4"> Opção 4</option>
+                </select>
+                <select name="professores" id="professores" class="dropdown">
+                    <option value="Opção 1"> Professor..</option>
+                    <option value="Opção 2"> Opção 2</option>
+                    <option value="Opção 3"> Opção 3</option>
+                    <option value="Opção 4"> Opção 4</option>
+                </select>
+                <input type="text" class="dados" placeholder="Local">
+                <input type="text" class="dados" placeholder="Horário">
+                <h2>Alunos</h2>
+                <div class="turmas">
+                    <div class="result">
+                        <p class="nomeAluno">Nome do Aluno</p>
+                        <p class="matricula">Matricula</p>
+                        <img class="lupa" src="resources/lupa_2.png">
+                    </div>
+                    <div class="result">
+                        <p class="nomeAluno">Nome do Aluno</p>
+                        <p class="matricula">Matricula</p>
+                        <img class="lupa" src="resources/lupa_2.png">
+                    </div>
+                </div>
+                <button type="button" class="botaoInfo" onclick="salvar()">Salvar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
