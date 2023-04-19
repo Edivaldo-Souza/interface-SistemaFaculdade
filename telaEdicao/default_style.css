@@ -46,7 +46,7 @@ span{
     display: flex;
     justify-content: center;
 }
-.btn{
+.botaoamarelo, .botaopreto{
     margin:0 0.2rem;
     padding: 0.5rem 4.5rem;
     border: 1px #3C3200 solid;
