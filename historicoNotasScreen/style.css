@@ -1,0 +1,56 @@
+.botaomenu{
+    margin: 0;
+    padding: 1rem 8rem;
+    font-size: 40px;
+    font-weight: 700;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#searchbar_campo{
+    width: 22rem;
+    height: 1.8rem;
+    margin: 0;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 0.7em;
+}
+.pesquisa{
+    width: 6rem;
+    height: 1.8rem;
+    margin: 0;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.search_campo{
+    height: 1.8rem;
+    margin: 0;
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.container{
+    position: relative;
+}
+table{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    border: none;
+}
+tr{
+    height: 38px;
+}
+th:first-child{
+    border-top-left-radius: 30px;
+}
+th:last-child{
+    border-top-right-radius: 30px;
+}
