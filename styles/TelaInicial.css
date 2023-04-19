@@ -9,7 +9,7 @@ body{
 }
 
 .options-container{
-    background-color: darkgray;
+    background-color: #0A0A0A;
     width:30%;
     height: 100vh;
     padding: 20px 10px;
@@ -17,7 +17,7 @@ body{
 }
 
 .options-container button{
-    background-color: white;
+    background-color: #FFD600;
     border-width: 0px;
     border-radius: 10px;
     height: 30px;
